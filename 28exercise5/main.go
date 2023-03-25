@@ -5,7 +5,7 @@ import "fmt"
 type HotDog int
 
 var x HotDog
-var y int
+var y int64
 
 func main() {
 	fmt.Println(x)
@@ -13,7 +13,7 @@ func main() {
 	x = 42
 	fmt.Println(x)
 
-	y := int64(x)
+	y = int64(x)
 	//y:=int32(x)
 
 	fmt.Println(y)
