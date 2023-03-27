@@ -33,4 +33,12 @@ func main() {
 	for j, val := range p2.ficecream {
 		fmt.Println(j, val)
 	}
+	m := map[string]person{
+		p1.lname: p1,
+		p2.lname: p2,
+	}
+	fmt.Println(m)
+	for k, va := range m {
+		fmt.Println(k, va)
+	}
 }
